@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bs.css">
+    <title>Birth Certificate</title>
+</head>
+<body>
+    <div class="container">
+        <header>জন্ম নিবন্ধনের জন্য আবেদন</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">নিবন্ধনাধীন ব্যক্তির পরিচিতি</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>নামের প্রথম অংশ বাংলায়*</label>
+                            <input type="text" placeholder="নামের প্রথম অংশ বাংলায়" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>নামের শেষ অংশ বাংলায়*</label>
+                            <input type="text" placeholder="নামের শেষ অংশ বাংলায়" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>নামের প্রথম অংশ ইংরেজিতে*</label>
+                            <input type="text" placeholder="First Name in English" required>
+                        </div><div class="input-field">
+                            <label>নামের শেষ অংশ ইংরেজিতে*</label>
+                            <input type="text" placeholder="Last Name in English" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>জন্ম তারিখ (খ্রিঃ) *</label>
+                            <input type="date" placeholder="Enter your date" required>
+                        </div>
+
+                        <div class="input-field">
+                           <label>পিতা ও মাতার কততম সন্তান *</label>                       
+                                <select  id="inputGroupSelect01">
+                                  <option disabled selected> ... নির্বাচন করুন ...</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                  <option value="4">Four</option>
+                                  <option value="5">Five</option>
+                                  <option value="6">Six</option>
+                                  <option value="7">Seven</option>
+                                  <option value="8">Eight</option>
+                                  <option value="9">Nine</option>
+                                  <option value="10">Ten</option>
+                                  <option value="11">Eleven</option>
+                                  <option value="12">Twelve</option>
+                                  <option value="13">Thirteen</option>
+                                  <option value="14">Fourteen</option>
+                                  <option value="15">Fifteen</option>
+                                  <option value="16">Sixteen</option>
+                                  <option value="17">Seventeen</option>
+                                  <option value="18">Eightteen</option>
+                                  <option value="19">Nineteen</option>
+                                  <option value="20">Twenty</option>
+                                  <option value="21">Twenty-One</option>
+                                  <option value="22">Twenty-Two</option>
+                                  <option value="23">Twenty-three</option>
+                                  <option value="24">Twenty-Four</option>
+                                  <option value="25">Twenty-Five</option>
+                                  <option value="26">Twenty-Six</option>
+                                  <option value="27">Twenty-Seven</option>
+                                  <option value="28">Twenty-Eight</option>
+                                  <option value="29">Twenty-Nine</option>
+                                  <option value="30">Thirty</option>
+                                </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>লিঙ্গ *</label>
+                            <select required>
+                                <option disabled selected>... নির্বাচন করুন ...</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">জন্মস্থানের ঠিকানা</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>দেশ *</label>
+                            <select required>
+                                <option disabled selected>... দেশ নির্বাচন করুন ...</option>
+                                <option>বাংলাদেশ</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>বিভাগ *</label>
+                            <select required>
+                                <option disabled selected>... বিভাগ নির্বাচন করুন ...</option>
+                                <option>বরিশাল বিভাগ</option>
+                                <option>চট্টগ্রাম বিভাগ</option>
+                                <option>ঢাকা বিভাগ</option>
+                                <option>খুলনা বিভাগ</option>
+                                <option>রাজশাহী বিভাগ</option>
+                                <option>সিলেট বিভাগ</option>
+                                <option>রংপুর বিভাগ</option>
+                                <option>ময়মনসিংহ বিভাগ</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>জেলা *</label>
+                            <input type="text" placeholder="Enter issued authority" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ডাকঘর (বাংলায়) *</label>
+                            <input type="text" placeholder="ডাকঘরের নাম লিখুন (বাংলায়)" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ডাকঘর (ইংরেজিতে) *</label>
+                            <input type="date" placeholder="Post office in English" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ডাকঘর (ইংরেজিতে) *</label>
+                            <input type="date" placeholder="Post office in English" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ডাকঘর (ইংরেজিতে) *</label>
+                            <input type="date" placeholder="Post office in English" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>গ্রাম / পাড়া / মহল্লা *</label>
+                            <input type="text" placeholder="Enter Village / Neighborhood / Mohalla *" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>গ্রাম / পাড়া / মহল্লা (ইংরেজিতে)*</label>
+                            <input type="text" placeholder="Enter Village / Neighborhood / Mohalla *" required>
+                        </div>
+                    </div>
+
+                    button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter mother name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Grandfather</label>
+                            <input type="text" placeholder="Enter grandfther name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Spouse Name</label>
+                            <input type="text" placeholder="Enter spouse name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Father in Law</label>
+                            <input type="text" placeholder="Father in law name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother in Law</label>
+                            <input type="text" placeholder="Mother in law name" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
